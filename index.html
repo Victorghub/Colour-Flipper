@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/a6be311be5.js" crossorigin="anonymous"></script>
     <title>Color Flipper</title>
   </head>
+  <nav class="nav__wrapper">
+    <h1>Colour Flipper</h1>
+    </nav>
   <body>
-
-<div class="nav__wrapper">
-    
-</div>
-
-
     <div class="container">
-      <h1 class="text">Colour Flipper</h1>
       <div class="button__wrapper">
-        <button class="green">Green</button>
-        <button class="red">Red</button>
-        <button class="blue">Blue</button>
-        <button class="random">Random</button>
+        <button class="green click" onclick="setColor('green')">Green</button>
+        <button class="red click" onclick="setColor('red')">Red</button>
+        <button class="blue click" onclick="setColor('blue')">Blue</button>
+        <button class="random click" onclick="randomColor()">Random</button>
       </div>
     </div>
   </body>

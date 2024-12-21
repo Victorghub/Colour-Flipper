@@ -4,6 +4,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.nav__wrapper {
+    margin: 15px 0px 15px 0px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -23,17 +31,17 @@ button {
     border: none;
     background-color: #242424;
     color: white;
+}
+
+.click {
     transition: all 100ms ease;
-    box-shadow: 10pxblack ;
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-button:active {
+.click:active {
     transform: scale(0.8);
 }
 
-
+.click:hover {
+    cursor: pointer;
+}
 
